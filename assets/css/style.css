@@ -1,0 +1,142 @@
+/**
+ * Homework biography
+ **/
+ 
+header {
+    background: #ffffff;
+    margin-bottom: 30px;
+  }
+
+.containerHeader {
+    border-bottom: 2px solid lightgray;
+}
+ 
+h1 {
+    padding: 30px ;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #eee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    background: #4aaaa5;
+      }
+  
+h2 {
+    color: #4aaaa5;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  
+a { padding: 5px;
+    color: #777777
+}
+
+#divNameHeader {
+    margin-left: 20px;
+    float:left;
+    text-align: center;
+    padding: 10px;
+        }
+
+#divHyperlinks {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    float:right;
+    width: 30%;
+    align-content: center;
+    color: #777777;
+      }
+        
+#bio-image {
+    width: 200px;
+    height: 200px;
+    float:left;
+    margin-right: 20px;
+  }
+
+#main-bio { 
+    margin-left: 50px;
+    margin-right: 50px;
+    float: left;
+      }
+
+.container {
+    position: relative;
+    padding: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:lightgray ;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:200%;
+    color: #777777;
+    background: #efeee7;
+  }
+
+footer { 
+    /* Positioning */
+    padding: 20px;
+    margin-top: 750px;
+
+    /* Typography */
+    font-size: 14px;
+    color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+     
+    /* Visual */
+    border-top: solid;
+    border-width: 10px;
+    border-color: #4aaaa5;
+    background-color: #666666;
+}
+
+
+
+
+/*
+
+--HEADER REQUIREMENTS 
+    1) Teal color (used for headings and backgrounds): #4aaaa5
+    2) Main header border color: #cccccc
+    3) Main header background color: #ffffff
+
+--FOOTER REQUIREMENTS 
+    1) Footer background color: #666666
+    2) 
+    3)
+    
+-- MAIN CONTENT 
+    1) Main content background color: #ffffff
+    2) Main content border color: #dddddd
+    3) Regular font color (used for paragraphs and all text besides the headings): #777777
+
+-- FONTS
+    1) For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
+    2) For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
+    3) Regular font color (used for paragraphs and all text besides the headings): #777777
+
+-- PAGE SIZE
+    1) The entire content and the main section content area is 960px wide.
+
+
+
+/*body {
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 20px;
+  line-height: 2px;
+  letter-spacing: 4px;
+  color: #333;
+}*/
