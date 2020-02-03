@@ -3,6 +3,10 @@
 
 /** * CONTAINERS * **/
 
+.pageContainer {
+    object-position: center;
+}
+
 .containerHeader {
     background: #ffffff;
     margin-left: 30px;
@@ -10,7 +14,7 @@
     border-width: 1px;
     border-bottom: 2px solid lightgray;
     padding: 20px;
-    position: relative;  
+    position: relative;
     }
 
 .container {
@@ -21,7 +25,7 @@
     width: 960px;
         }
 
-#divNameHeader {
+.divNameHeader {
     margin-left: 10px;
     float:left;
     text-align: center;
@@ -29,7 +33,7 @@
     width; 40%
         }
 
-#divHyperlinks {
+.divHyperlinks {
     margin-top: 60px;
     margin-bottom: 10px;
     float:right;
@@ -106,33 +110,33 @@ body {
     overflow: hidden;
     margin-bottom: 30px;
     position: relative;
+    object-position: center;
   }
         
-#bio-image {
+.bio-image {
     width: 200px;
     height: 200px;
     float:left;
     margin-right: 20px;
   }
 
-#main-bio { 
+.main-bio { 
     margin-left: 50px;
     margin-right: 50px;
     float: left;
       }
 
-footer { 
+footer {
+    margin-top: 400px; 
     padding: 20px;
-    margin-top: 700px;
-    font-size: 14px;
+    font-size: 16px;
     color: #eee;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     border-top: solid;
-    border-width: 10px;
+    border-width: 40px;
     border-color: #4aaaa5;
     background-color: #666666;
-    position: relative;
 }
 
 /** * PORTFOLIO * **/    
@@ -143,22 +147,24 @@ footer {
 /*    border-style: solid;
     border-width: 1px;*/
 
-#portfolioImages {
+.portfolioImages {
     width: 200px;
     height: 200px;
   }
 
 .portfolioContainer {
+    object-position: center;
     padding: 30px;
     border-color:lightgray ;
     width: 960px;
     float: left;
     border-style: solid;
     border-width: 2px;
+    display: flex;
+    flex-wrap: wrap;
             }
 
-
-#boxPicturesContainer {  
+.boxPicturesContainer {  
     position: relative;
     width: 200px;
     height: 200px;
@@ -166,8 +172,6 @@ footer {
     text-align: center;
     padding: 10px;
 }
-
-.div3 {columns: 100px 3;}
 
 .centered {
     position: relative;
@@ -186,6 +190,7 @@ h3 {background-color: #4aaaa5;
     float: left;
     width: 50%;
     padding: 10px;
+    column-count: 2;
 }   
 
 .row:after {
