@@ -12,7 +12,6 @@ header {
     float:left;
     text-align: center;
     padding: 10px;
-    width: 20%;
     margin-left: 8%;
     margin-bottom: 20px;
         }
@@ -23,32 +22,29 @@ header {
     margin-top: 20px;
     padding: 30px;
     color: #777777;
-    width: 30%;
     font-size: 26px;
       }
 
 .divHeaderUnderline {
     border-width: 1px;
     border-bottom: 2px solid lightgray;
-    margin-bottom: 50px;
+    margin-bottom: 50px;  
 }      
 
 /** * HEADER NAVIGATION * **/
 
 nav {
-    margin: 10px;
+    margin: auto;
 }
 
 nav ul {
     margin-bottom: 10px;
     padding: 0;
     list-style: none;
-    width: 100%
 }
 
 nav li {
     display: inline-block;
-    margin-left: 10px;
 }
 
 a { text-decoration: none;
@@ -78,9 +74,8 @@ footer {
 
 h1 {
     padding: 30px ;
-    margin-left: 10%;
     margin-bottom: 10px;
-    font-size: 32px;
+    font-size: 28px;
     color: #eee;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: #4aaaa5;
@@ -119,6 +114,9 @@ h3 {
 
 /** * BODY * **/    
 
+.content { max-width: 960px;
+margin: auto}
+
 body {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
@@ -140,7 +138,6 @@ body {
 .containerBio {
     margin-top: 30px;
     float: left;
-    margin-left: 10%;
     border-style: solid;
     border-width: 2px;
     border-color:lightgray ;
@@ -160,7 +157,6 @@ body {
 .portfolioContainer {
     margin-top: 30px;
     float: left;
-    margin-left: 10%;
     border-style: solid;
     border-width: 2px;
     border-color:lightgray ;
@@ -234,10 +230,6 @@ https://www.w3schools.com/css/css3_flexbox.asp#flex-wrap
 * I need to make the fields inside the box stretch to the edges.
 * I need to make the message box responsive to text.
 */
-
-form {
-    width: 100%;
-}
 
 button { 
     width: 100px; 
