@@ -12,8 +12,8 @@ header {
     float:left;
     text-align: center;
     padding: 10px;
-    width: 30%;
-    margin-left: 6%;
+    width: 20%;
+    margin-left: 8%;
     margin-bottom: 20px;
         }
 
@@ -24,6 +24,7 @@ header {
     padding: 30px;
     color: #777777;
     width: 30%;
+    font-size: 26px;
       }
 
 .divHeaderUnderline {
@@ -79,7 +80,7 @@ h1 {
     padding: 30px ;
     margin-left: 10%;
     margin-bottom: 10px;
-    font-size: 28px;
+    font-size: 32px;
     color: #eee;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: #4aaaa5;
@@ -165,8 +166,7 @@ body {
     border-color:lightgray ;
     padding: 30px;
     width: 960px;
-    height: 1200px;
-             }
+              }
      
 
 /** * CONTAINER IMAGES, AND TEXT BANNER * **/
@@ -189,7 +189,7 @@ https://www.w3schools.com/css/css3_flexbox.asp#flex-wrap
             
 .flex-container {
     margin: 20px;
-    width: 200px;
+    width: 250px;
     height: 200px;
     display: flex;
     flex-wrap: wrap;
@@ -203,27 +203,25 @@ https://www.w3schools.com/css/css3_flexbox.asp#flex-wrap
               }    
                   
 .portfolioImages {
-    width: 200px;
+    width: 250px;
     height: 200px;
   }
 
 .column { 
     float: left;
-    width: 50%;
-    padding: 10px;
-    column-count: 2;
-        }   
+    padding: 20px;
+    column-count: 1;
+            }   
 
-.row { 
-            display: flex;
-                }
+.row {padding: 40px;
+    display: flex; }
         
         
 .row:after {
     content: "";
     display: table;
     clear: both;
-        }
+            }
         
 /* clear floats after the columns*/
       
