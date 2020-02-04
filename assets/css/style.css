@@ -4,8 +4,8 @@
 /** * HEADER * **/
 
 header {
-    width: 100%;
     background: #ffffff;
+    padding-top: 50px;
 }
 
 .divNameHeader {
@@ -13,12 +13,10 @@ header {
     text-align: center;
     padding: 10px;
     margin-left: 8%;
-    margin-bottom: 20px;
         }
 
 .divHyperlinks {
     float:right;
-    align-content: center;
     margin-top: 20px;
     padding: 30px;
     color: #777777;
@@ -28,7 +26,7 @@ header {
 .divHeaderUnderline {
     border-width: 1px;
     border-bottom: 2px solid lightgray;
-    margin-bottom: 50px;  
+    margin-top: 122px;  
 }      
 
 /** * HEADER NAVIGATION * **/
@@ -136,13 +134,12 @@ body {
 */
 
 .containerBio {
-    margin-top: 30px;
+    margin-top: 20px;
     float: left;
     border-style: solid;
     border-width: 2px;
     border-color:lightgray ;
     padding: 30px;
-    width: 960px;
         }
 
 .bio-image {
@@ -155,7 +152,7 @@ body {
 /** * PORTFOLIO CONTAINERS * **/   
 
 .portfolioContainer {
-    margin-top: 30px;
+    margin-top: 20px;
     float: left;
     border-style: solid;
     border-width: 2px;
