@@ -5,7 +5,6 @@
 
 header {
     background: #ffffff;
-    padding-top: 50px;
 }
 
 .divNameHeader {
@@ -17,16 +16,14 @@ header {
 
 .divHyperlinks {
     float:right;
-    margin-top: 20px;
     padding: 30px;
     color: #777777;
     font-size: 26px;
       }
 
-.divHeaderUnderline {
+.divHeaderUnderline {  
     border-width: 1px;
     border-bottom: 2px solid lightgray;
-    margin-top: 122px;  
 }      
 
 /** * HEADER NAVIGATION * **/
@@ -46,7 +43,7 @@ nav li {
 }
 
 a { text-decoration: none;
-    padding: 5px;
+    padding: 10px;
     color: #777777
     }
 
@@ -88,10 +85,10 @@ h2 {
     border-bottom: solid;
     border-width: 1px;
     border-color: lightgray;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 20px;
-    padding-bottom: 20px;
-  }
+
+}
  
 /** * HEADING 3 - PICTURE HEADINGS * **/
 
@@ -123,11 +120,9 @@ body {
     background: #efeee7;
     overflow: hidden;
     margin-bottom: 30px;
-    position: relative;
-    object-position: center;
-  }  
+     }  
 
-/** * CONTAINER BIO ABOUT ME, PORTFOLIO, CONTACT * **/
+/** * CONTAINER BIO ABOUT ME, PORTFOLIO, CONTACT;* position: relative;**/
 
 /*
 * I need to figure out how to make the around the biography to move to the center of the page.
@@ -140,6 +135,7 @@ body {
     border-width: 2px;
     border-color:lightgray ;
     padding: 30px;
+    width: 960px;
         }
 
 .bio-image {
@@ -157,7 +153,7 @@ body {
     border-style: solid;
     border-width: 2px;
     border-color:lightgray ;
-    padding: 30px;
+    padding: 20px;
     width: 960px;
               }
      
@@ -190,7 +186,6 @@ https://www.w3schools.com/css/css3_flexbox.asp#flex-wrap
               }
               
 .flex-container > div {
-
     text-align: center;
     font-size: 30px;
               }    
